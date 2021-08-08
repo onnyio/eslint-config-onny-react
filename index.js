@@ -17,8 +17,6 @@ module.exports = {
   plugins: [
     'import',
     'react',
-    'chai-expect',
-    'chai-friendly'
   ],
   rules: {
     ///////////////////
