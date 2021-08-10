@@ -1,12 +1,9 @@
 module.exports = {
   extends: [
-    'onny'
+    'onny',
+    'plugin:react/recommended',
   ],
-  env: {
-    es6: true
-  },
   parserOptions: {
-    ecmaVersion: 2021,
     ecmaFeatures: {
       jsx: true,
       modules: true,
@@ -15,7 +12,6 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'import',
     'react',
   ],
   rules: {
