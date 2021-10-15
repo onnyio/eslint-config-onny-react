@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-onny-react",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "eslint specs for Onny React projects",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext .js --format ./node_modules/eslint-config-onny/eslintFormat",
-    "lint-fix": "eslint . --ext .js --format ./node_modules/eslint-config-onny/eslintFormat --fix",
+    "lint": "eslint . --ext .js",
+    "lint-fix": "eslint . --ext .js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +25,7 @@
     "eslint": "^7.32.0"
   },
   "dependencies": {
-    "eslint-config-onny": "^0.1.5",
+    "eslint-config-onny": "^0.1.6",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"

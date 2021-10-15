@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'onny',
-    'plugin:react/recommended',
+    'plugin:react/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -12,7 +12,7 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react',
+    'react'
   ],
   rules: {
     ///////////////////
